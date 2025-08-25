@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: rahat6/frontend:694535bf15cb7328bd153687abca4167a3fd083a
+          image: rahat6/frontend:699bde0d977445f39c6d555a64c439fdf56c55aa
           ports:
             - containerPort: 80
 ---
