@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: rahat6/backend:0a799892f0ddff04949793a696814641b032047a
+          image: rahat6/backend:62fdbae493566e477bf1956bb17113b8986e1ffb
           ports:
             - containerPort: 5000
           env:
