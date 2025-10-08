@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: rahat6/backend:0df100cec33158db693720193919a887c8a6aa89
+          image: rahat6/backend:c647d3ec5e964b0dea7639cb71b819a02a070897
           ports:
             - containerPort: 5000
           env:
@@ -49,5 +49,3 @@ spec:
     - port: 5000
       targetPort: 5000
   type: ClusterIP
-
-  
